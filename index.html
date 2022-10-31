@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+        <button class="btn-Again" onclick="history.go(0)">PLAY AGAIN</button>
+        <P class="between">(BETWEEN 1 AND 6)</P>
+    </header>
+    <section>
+        <h2>GUESS MY NUMBER</h2>
+        <div class="number">?</div>
+
+    </section>
+    <main class="inner-main">
+        <div>
+            <input type="number" name="" class="guess" value="200"> <br>
+
+            <button class="btn check">CLICK TO CHECK</button>
+        </div>
+        <!-- <p>START GUESSING</p> -->
+        <div>
+            <marquee behavior="" direction="">
+                <h5 class="message"><i> PLEASE START YOUR GUESS............................ </i> </h5>
+            </marquee>
+            <h6 class="label-score">TRIAL: <span class="score">3</span></h6>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
